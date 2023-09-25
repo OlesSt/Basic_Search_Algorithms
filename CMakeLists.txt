@@ -14,6 +14,11 @@ find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Core)
 
 add_executable(Basic_Search_Algorithms
   main.cpp
+
+  linear_search.h
+  binary_search.h
+
+  testarray.h
 )
 target_link_libraries(Basic_Search_Algorithms Qt${QT_VERSION_MAJOR}::Core)
 
